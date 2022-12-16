@@ -126,7 +126,7 @@ function fetchMovies(event) {
     //console.log(matches);
     displayMatches(matches);
 
-    fetch("https://www.omdbapi.com/?apikey=fcba391d&t=jurassic park").then(
+    /*fetch("https://www.omdbapi.com/?apikey=fcba391d&t=jurassic park").then(
       function (responseObj) {
         //returns an object, try using wrong key
         var dataPromise = responseObj.json();
@@ -138,6 +138,7 @@ function fetchMovies(event) {
         //console.log(responseObj);
       }
     );
+    */
   }
 }
 
